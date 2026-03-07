@@ -1,0 +1,7 @@
+{
+    "name": "tuapp/api-php",
+    "description": "API REST para CRUD categoria",
+    "require": {
+        "php": ">=8.0"
+    }
+}
