@@ -5,4 +5,4 @@ nixPkgs = ["php82", "php82Extensions.mysqli", "php82Extensions.pdo_mysql"]
 cmds = []
 
 [start]
-cmd = "frankenphp php-server --root /app"
+cmd = "php82 -S 0.0.0.0:$PORT -t /app"
